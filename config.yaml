@@ -1,0 +1,10 @@
+%YAML:1.0
+
+# data
+dataset_dir: ./dataset/rgbd_dataset_freiburg1_xyz
+pointSizeCur: 3.15
+pointSizeHis: 2.75
+waitTime: 1
+
+# 0 no 1 yes
+dense: 0
