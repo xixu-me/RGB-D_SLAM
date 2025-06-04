@@ -31,6 +31,10 @@ sudo apt install -y build-essential git cmake
 echo "Installing Python3..."
 sudo apt install -y python3
 
+# Install wheel (needed for Pangolin compilation)
+echo "Installing Python wheel..."
+sudo apt install -y python3-wheel
+
 # Install OpenCV development libraries
 echo "Installing OpenCV development libraries..."
 sudo apt install -y libopencv-dev
